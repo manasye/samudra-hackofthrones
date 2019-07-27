@@ -1,0 +1,76 @@
+.inventory-container {
+    padding: 5vh 3vw;
+}
+
+.inventory-container h1 {
+    font-weight: 600;
+}
+
+.inventory-container table i {
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #4F0076;
+    border-color: #4F0076;
+}
+
+.btn-primary:hover {
+    background-color: #2A003F
+}
+
+.table-inventory {
+    margin-top: 5vh;
+}
+
+.inventory-image {
+    max-width: 100%;
+}
+
+.inven-col-image {
+    width: 20%;
+}
+
+.search-inven {
+    width: 50%;
+    float: right;
+}
+
+.inventory-modal {
+    padding: 3vh 2.5vw 8vh 2.5vw;
+}
+
+.inventory-modal h5 {
+    margin-top: 1.1vh;
+}
+
+.inventory-modal .input-container {
+    margin-bottom: 3vh;
+}
+
+.styles_modal__gNwvD {
+    border-radius: 10px;
+    min-width: 40vw;
+}
+
+.inventory-modal button {
+    margin-top: 3vh;
+}
+
+.inventory-modal button:first-of-type {
+    margin-left: 2vw;
+}
+
+.page-link {
+    color: #4F0076;
+}
+
+.page-link:hover {
+    color: #4F0076;
+}
+
+.page-item.active .page-link {
+    background-color: #4F0076;
+    border-color: #4F0076;
+}

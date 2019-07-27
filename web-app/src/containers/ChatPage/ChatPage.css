@@ -1,0 +1,131 @@
+.chatpage-container {
+    padding: 7vh 6vw;
+}
+
+.chatpage-wrapper {
+    width: 100%;
+    height: 75vh;
+    border: 1px solid #EEEEEE;
+}
+
+.chatpage-wrapper .col-4,
+.chatpage-wrapper .col-8,
+.chatpage-wrapper .col-5,
+.chatpage-wrapper .col-7 {
+    border-right: 1px solid #EEEEEE;
+    height: 75vh;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.chatpage-wrapper .col-7 {
+    overflow-y: scroll;
+}
+
+.chatpage-smallbox {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.chatpage-smallbox img {
+    border-radius: 50%;
+    max-width: 60%;
+    margin-top: 1.6vh;
+    margin-left: 1vw;
+}
+
+.chatpage-smallbox h4 {
+    margin-top: 3.5vh;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.chatpage-smallbox p {
+    font-size: .8rem;
+    margin-bottom: 1vh;
+}
+
+.chatpage-smallbox:hover {
+    background-color: #EEEEEE;
+    cursor: pointer;
+}
+
+.chatpage-smallbox.active {
+    background-color: #EEEEEE;
+}
+
+.chatpage-content {
+    position: relative;
+}
+
+.chatpage-content-chat {
+    min-height: 65vh;
+    padding-top: 10vh;
+}
+
+.chatpage-header-user {
+    padding: 1.5vh 3vw 1vh 3vw;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+    top: 18vh;
+    width: 36vw;
+}
+
+.chatpage-header-user h3 {
+    margin-bottom: 0;
+}
+
+.outgoing-message-container {
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    width: 50%;
+    margin: 2vh 2vw 1vh 2vw;
+    padding: 1vh 1vw;
+}
+
+.incoming-message-container {
+    background-color: #500091;
+    border-radius: 5px;
+    color: white;
+    width: 50%;
+    margin: 2vh 2vw 1vh 15vw;
+    padding: 1vh 1vw;
+}
+
+.incoming-date {
+    text-align: right;
+    margin-right: 3.5vw;
+    font-size: .8rem;
+    color: #0f0f0f;
+}
+
+.outcoming-date {
+    margin-left: 3.5vw;
+    font-size: .8rem;
+    color: #0f0f0f;
+}
+
+.m-10 {
+    margin-top: 10vh;
+}
+
+.chatpage-reply {
+    position: relative;
+}
+
+.chatpage-reply input {
+    width: 65%;
+    margin: 0 auto 2vh auto;
+}
+
+.chatpage-reply .fab {
+    color: #500091;
+    position: absolute;
+    font-size: 1.5rem;
+    cursor: pointer;
+    right: 3vw;
+    top: 1vh;
+}

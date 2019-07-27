@@ -1,0 +1,16 @@
+.payment-card-wrapper {
+    margin: 20px 0;
+}
+
+.card-legend {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.card-value {
+    font-size: 1.5em;
+}
+
+.card-icon {
+    font-size: 2em;
+}

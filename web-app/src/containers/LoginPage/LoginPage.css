@@ -1,0 +1,34 @@
+.login-container {
+    background-image: linear-gradient(#500091, #2d054e);
+    height: 101vh;
+    padding: 25vh 0;
+}
+
+.login-box {
+    width: 50vw;
+    height: 50vh;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 3vh 3vw;
+}
+
+.login-box h2 {
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 5vh;
+}
+
+.login-box .col-9 {
+    margin-bottom: 3vh;
+}
+
+.login-submit {
+    margin-top: 4vh;
+}
+
+.login-to-regis {
+    color: #500091;
+}

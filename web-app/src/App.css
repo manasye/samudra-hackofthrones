@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.sidebar-column {
+  flex: 0 0 22%;
+}
+
+.main-column {
+  flex: 0 0 78%;
+  max-width: 78%;
+}

@@ -1,0 +1,49 @@
+.sidebar-container {
+    height: 100%;
+    min-height: 101vh;
+    background-image: linear-gradient(#500091, #2d054e);
+    background-size: cover;
+    color: white;
+}
+
+.sidebar-container a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar-container h1 {
+    font-weight: 700;
+    margin-bottom: 5vh;
+    padding: 5vh 2vw;
+    font-size: 2.5rem;
+}
+
+.sidebar-container .row:hover {
+    background: #2A003F;
+}
+
+.sidebar-container .row {
+    padding: 1.5vh 1vw;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.sidebar-container .active {
+    background-color: #2A003F;
+}
+
+.sidebar-container .inactive {
+    background-color: transparent;
+}
+
+.sidebar-container .fas {
+    margin-right: 1.3vw;
+    font-size: 1.6rem;
+}
+
+.sidebar-container .logout-nav {
+    position: absolute;
+    bottom: 2vh;
+    width: 100%;
+}

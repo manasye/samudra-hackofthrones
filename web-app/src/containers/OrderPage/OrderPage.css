@@ -1,0 +1,16 @@
+.order-container {
+    padding: 5vh 3vw;
+}
+
+.search-order {
+    width: 50%;
+    float: right;
+}
+
+.table-order {
+    margin-top: 5vh;
+}
+
+.order-col-image {
+    width: 20%;
+}

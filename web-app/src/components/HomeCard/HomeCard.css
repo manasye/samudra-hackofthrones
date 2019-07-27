@@ -1,0 +1,18 @@
+.homecard-wrapper {
+    margin: 20px 10px;
+    background-image: linear-gradient(90deg, #500091, #2d054e);
+    color: white;
+}
+
+.card-icon {
+    font-size: 3em;
+}
+
+.card-legend {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.card-value {
+    font-size: 2em;
+}
